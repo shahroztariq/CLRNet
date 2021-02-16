@@ -5,14 +5,14 @@ __Title:__ *One Detector to Rule Them All: Towards a General Deepfake Attack Det
 
 # Additional Results
 
-__Updated in-domain attack results including DFDC dataset__
+## Updated in-domain attack results including DFDC dataset
 
 * Note that CLRNet performs the best for DFDC dataset among all the test baselines.
 
 <img src="https://i.ibb.co/HP5dSJF/Table3.png" alt="Table3" border="0" width="600" > 
 
 
-__Updated out-of-domain attack results (before using our defense strategy)__
+## Updated out-of-domain attack results (before using our defense strategy)
 
 * Note that results from Table 5 demonstrates that models trained on DFDC, which is a quite generic and diverse dataset, can still fail to detect out-of-domain attack (see Table 5).
 * See Table 6 in our paper, for defense performance against out-of-domain attack.
