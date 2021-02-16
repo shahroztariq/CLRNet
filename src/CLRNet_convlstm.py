@@ -282,12 +282,12 @@ def _string_to_function(identifier):
     return identifier
 
 
-def ResNet(input_shape=None, classes=10, block='bottleneck', residual_unit='v2',
+def CLRNet(input_shape=None, classes=10, block='bottleneck', residual_unit='v2',
            repetitions=None, initial_filters=64, activation='softmax', include_top=True,
            input_tensor=None, dropout=None, transition_dilation_rate=(1, 1),
            initial_strides=(2, 2), initial_kernel_size=(7, 7), initial_pooling='max',
            final_pooling=None, top='classification'):
-    """Builds a custom ResNet like architecture. Defaults to ResNet50 v2.
+    """Builds a custom ResNet like architecture. Defaults to CLRNet50 v2.
 
     Args:
         input_shape: optional shape tuple, only to be specified
@@ -302,7 +302,7 @@ def ResNet(input_shape=None, classes=10, block='bottleneck', residual_unit='v2',
             The original paper used `basic` for layers < 50.
         repetitions: Number of repetitions of various block units.
             At each block unit, the number of filters are doubled and the input size
-            is halved. Default of None implies the ResNet50v2 values of [3, 4, 6, 3].
+            is halved. Default of None implies the CLRNet50v2 values of [3, 4, 6, 3].
         residual_unit: the basic residual unit, 'v1' for conv bn relu, 'v2' for bn relu
             conv. See [Identity Mappings in
             Deep Residual Networks](https://arxiv.org/abs/1603.05027)
@@ -423,31 +423,31 @@ def ResNet(input_shape=None, classes=10, block='bottleneck', residual_unit='v2',
     return model
 
 
-def ResNet18(input_shape, classes):
-    """ResNet with 18 layers and v2 residual units
+def CLRNet18(input_shape, classes):
+    """CLRNet with 18 layers and v2 residual units
     """
-    return ResNet(input_shape, classes, basic_block, repetitions=[2, 2, 2, 2])
+    return CLRNet(input_shape, classes, basic_block, repetitions=[2, 2, 2, 2])
 
 
-def ResNet34(input_shape, classes):
-    """ResNet with 34 layers and v2 residual units
+def CLRNet34(input_shape, classes):
+    """CLRNet with 34 layers and v2 residual units
     """
-    return ResNet(input_shape, classes, basic_block, repetitions=[3, 4, 6, 3])
+    return CLRNet(input_shape, classes, basic_block, repetitions=[3, 4, 6, 3])
 
 
-def ResNet50(input_shape, classes):
-    """ResNet with 50 layers and v2 residual units
+def CLRNet50(input_shape, classes):
+    """CLRNet with 50 layers and v2 residual units
     """
-    return ResNet(input_shape, classes, bottleneck, repetitions=[3, 4, 6, 3])
+    return CLRNet(input_shape, classes, bottleneck, repetitions=[3, 4, 6, 3])
 
 
-def ResNet101(input_shape, classes):
-    """ResNet with 101 layers and v2 residual units
+def CLRNet101(input_shape, classes):
+    """CLRNet with 101 layers and v2 residual units
     """
-    return ResNet(input_shape, classes, bottleneck, repetitions=[3, 4, 23, 3])
+    return CLRNet(input_shape, classes, bottleneck, repetitions=[3, 4, 23, 3])
 
 
-def ResNet152(input_shape, classes):
-    """ResNet with 152 layers and v2 residual units
+def CLRNet152(input_shape, classes):
+    """CLRNet with 152 layers and v2 residual units
     """
-    return ResNet(input_shape, classes, bottleneck, repetitions=[3, 8, 36, 3])
+    return CLRNet(input_shape, classes, bottleneck, repetitions=[3, 8, 36, 3])
