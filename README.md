@@ -1,5 +1,3 @@
-__Submission ID:__ 136
-
 __Title:__ *One Detector to Rule Them All: Towards a General Deepfake Attack Detection Framework*
 
 <img src="https://i.ibb.co/8Pf6Chb/CLRNet-pipeline.png" alt="CLRNet-pipeline" border="0" width="800">
