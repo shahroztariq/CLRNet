@@ -2,13 +2,6 @@ __Title:__ *One Detector to Rule Them All: Towards a General Deepfake Attack Det
 
 <img src="https://i.ibb.co/8Pf6Chb/CLRNet-pipeline.png" alt="CLRNet-pipeline" border="0" width="800">
 
-### Important 
-* To view the file's content: After clicking on a file, scroll down to the bottom of the page to see its content.
-* The user interface is not the best, but this is the best method we found to anonymize our code.
-* Please refresh the page if the contents are not showing up. 
-* To hide the author's identity, we are removing all affiliations until the review period is over.
-* The src directory contains all the Jupyter notebooks from our experiments, along with results.
-
 # Updated in-domain attack results including DFDC dataset
 * Note that CLRNet performs the best for DFDC dataset among all the test baselines.
 
