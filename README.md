@@ -1,23 +1,19 @@
-__Submission ID:__ 136
-
+# Overview
 __Title:__ *One Detector to Rule Them All: Towards a General Deepfake Attack Detection Framework*
 
 <img src="https://i.ibb.co/8Pf6Chb/CLRNet-pipeline.png" alt="CLRNet-pipeline" border="0" width="800">
 
-### Important 
-* To view the file's content: After clicking on a file, scroll down to the bottom of the page to see its content.
-* The user interface is not the best, but this is the best method we found to anonymize our code.
-* Please refresh the page if the contents are not showing up. 
-* To hide the author's identity, we are removing all affiliations until the review period is over.
-* The src directory contains all the Jupyter notebooks from our experiments, along with results.
+# Additional Results
 
-# Updated in-domain attack results including DFDC dataset
+## Updated in-domain attack results including DFDC dataset
+
 * Note that CLRNet performs the best for DFDC dataset among all the test baselines.
 
 <img src="https://i.ibb.co/HP5dSJF/Table3.png" alt="Table3" border="0" width="600" > 
 
 
-# Updated out-of-domain attack results (before using our defense strategy)
+## Updated out-of-domain attack results (before using our defense strategy)
+
 * Note that results from Table 5 demonstrates that models trained on DFDC, which is a quite generic and diverse dataset, can still fail to detect out-of-domain attack (see Table 5).
 * See Table 6 in our paper, for defense performance against out-of-domain attack.
 
