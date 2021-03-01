@@ -1,5 +1,5 @@
 # Overview
-__Title:__ *One Detector to Rule Them All: Towards a General Deepfake Attack Detection Framework*[Accepted at WWW '21]
+__Title:__ *One Detector to Rule Them All: Towards a General Deepfake Attack Detection Framework* **[Accepted at WWW '21]**
 
 <img src="https://i.ibb.co/8Pf6Chb/CLRNet-pipeline.png" alt="CLRNet-pipeline" border="0" width="800">
 
