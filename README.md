@@ -1,7 +1,23 @@
 # Overview
-__Title:__ *One Detector to Rule Them All: Towards a General Deepfake Attack Detection Framework*
+__Title:__ *One Detector to Rule Them All: Towards a General Deepfake Attack Detection Framework*[Accepted at WWW '21]
 
 <img src="https://i.ibb.co/8Pf6Chb/CLRNet-pipeline.png" alt="CLRNet-pipeline" border="0" width="800">
+
+## Citation
+
+If you find our work useful for your research, please consider citing the following papers :)
+
+```
+@inproceedings{tariq2021web,
+  title={One Detector to Rule Them All: Towards a General Deepfake Attack Detection Framework},
+  author={Tariq, Shahroz and Lee, Sangyup and Woo, Simon S},
+  booktitle={Proceedings of The Web Conference 2021},
+  year={2021},
+  url = {https://doi.org/10.1145/3442381.3449809},
+  doi = {10.1145/3442381.3449809}
+}
+```
+
 
 # Additional Results
 
