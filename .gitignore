@@ -130,3 +130,5 @@ dmypy.json
 
 # Temporarily Excluding CLRNet Files (Request these files from Authors via Email)
 src/CLRNet*
+
+src/.idea
