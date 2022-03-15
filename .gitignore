@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Temporarily Excluding CLRNet Files (Request these files from Authors via Email)
+src/CLRNet*
