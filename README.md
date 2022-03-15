@@ -18,6 +18,9 @@ If you find our work useful for your research, please consider citing the follow
 }
 ```
 
+# Notice
+CLRNet Files and weights are temporarily removed. Contact the authors via email for access.
+
 # Pretrained weights
 The following link contains the weights for the models (CLRNet [CLR], ShallowNetV3 [SNV3], MesoInception4 [M14], and Xception [XCE]) used in our experiments
 
