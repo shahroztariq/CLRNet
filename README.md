@@ -1,3 +1,6 @@
+# Notice
+CLRNet Files and weights are temporarily removed. Contact the authors via email for access.
+
 # Overview
 __Title:__ *One Detector to Rule Them All: Towards a General Deepfake Attack Detection Framework* **([WWW '21](https://dl.acm.org/doi/abs/10.1145/3442381.3449809)) ([arXiv](https://arxiv.org/abs/2105.00187))**
 
@@ -17,9 +20,6 @@ If you find our work useful for your research, please consider citing the follow
   doi = {10.1145/3442381.3449809}
 }
 ```
-
-# Notice
-CLRNet Files and weights are temporarily removed. Contact the authors via email for access.
 
 # Pretrained weights
 The following link contains the weights for the models (CLRNet [CLR], ShallowNetV3 [SNV3], MesoInception4 [M14], and Xception [XCE]) used in our experiments
