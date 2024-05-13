@@ -1,5 +1,6 @@
 # Notice
-CLRNet Files and weights are temporarily removed. Contact the authors via email for access.
+**Update 2024: CLRNet, ShallowNet, MesoInception4, and Xception weights are now available to download from the Google Drive link below.**
+update 2022: CLRNet Files and weights are temporarily removed. Contact the authors via email for access. 
 
 # Overview
 __Title:__ *One Detector to Rule Them All: Towards a General Deepfake Attack Detection Framework* **([WWW '21](https://dl.acm.org/doi/abs/10.1145/3442381.3449809)) ([arXiv](https://arxiv.org/abs/2105.00187))**
