@@ -1,5 +1,6 @@
 # Notice
-**Update 2024: CLRNet, ShallowNet, MesoInception4, and Xception weights are now available to download from the Google Drive link below.**
+## **Update 2024: CLRNet, ShallowNet, MesoInception4, and Xception weights are now available to download from the Google Drive link below.**
+
 update 2022: CLRNet Files and weights are temporarily removed. Contact the authors via email for access. 
 
 # Overview
